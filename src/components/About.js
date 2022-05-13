@@ -21,8 +21,8 @@ const About = () => {
             </div>
             <p className="text-base-gray">
               I am Avadhoot Kulkarni, currently in third year of IT engineering.
-              I have a great interest in web development and machine learning.
-              Would love to connect with you and discuss more about it!
+              I am passionate about web development and machine learning with
+              experience working across full-stack web development.
             </p>
             <div>
               <button className="text-white bg-base-violet group mt-14 px-4 py-4 my-2 flex items-center rounded-lg gap-2">

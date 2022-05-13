@@ -41,10 +41,6 @@ html{
     ) !important;
 }
 
-.logo{
+.logo,.foot{
     font-family: 'Sriracha', cursive !important;
-}
-
-.active{
-    color: blue !important;
 }
