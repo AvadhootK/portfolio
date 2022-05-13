@@ -10,7 +10,7 @@ const Experience = () => {
       desc: "Responsibility:",
     },
     {
-      title: "Project Intern",
+      title: "Software Engineer Intern",
       org: "FTB Communications",
       time: "2021-2022",
       desc: "",
