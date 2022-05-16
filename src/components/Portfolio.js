@@ -179,9 +179,9 @@ const Portfolio = () => {
           </p>
         </div>
       </div>
-      <div
+      {/* <div
         id="carouselExampleIndicators"
-        className="carousel slide carousel-dark relative w-96 mx-auto mt-6 border-2 border-black"
+        className="carousel slide carousel-dark relative w-80 mx-auto mt-6 border-4 p-4 border-black"
         data-bs-ride="carousel"
       >
         <div className="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
@@ -226,46 +226,22 @@ const Portfolio = () => {
         </div>
         <div className="carousel-inner relative w-full overflow-hidden">
           <div className="carousel-item active float-left w-full">
-            <img
-              src={sketch1}
-              className="block w-full h-[550px]"
-              alt="Wild Landscape"
-            />
+            <img src={sketch1} className="block w-full h-[550px]" alt="..." />
           </div>
           <div className="carousel-item float-left w-full">
-            <img
-              src={sketch2}
-              className="block w-full h-[550px]"
-              alt="Camera"
-            />
+            <img src={sketch2} className="block w-full h-[550px]" alt="..." />
           </div>
           <div className="carousel-item float-left w-full">
-            <img
-              src={sketch3}
-              className="block w-full h-[550px]"
-              alt="Exotic Fruits"
-            />
+            <img src={sketch3} className="block w-full h-[550px]" alt="..." />
           </div>
           <div className="carousel-item float-left w-full">
-            <img
-              src={sketch4}
-              className="block w-full h-[550px]"
-              alt="Exotic Fruits"
-            />
+            <img src={sketch4} className="block w-full h-[550px]" alt="..." />
           </div>
           <div className="carousel-item float-left w-full">
-            <img
-              src={sketch5}
-              className="block w-full h-[550px]"
-              alt="Exotic Fruits"
-            />
+            <img src={sketch5} className="block w-full h-[550px]" alt="..." />
           </div>
           <div className="carousel-item float-left w-full">
-            <img
-              src={sketch6}
-              className="block w-full h-[550px]"
-              alt="Exotic Fruits"
-            />
+            <img src={sketch6} className="block w-full h-[550px]" alt="..." />
           </div>
         </div>
         <button
@@ -292,6 +268,52 @@ const Portfolio = () => {
           ></span>
           <span className="visually-hidden">Next</span>
         </button>
+      </div> */}
+      <div className="flex flex-col justify-center items-center w-full h-full pt-10">
+        <div className="w-full grid lg:grid-cols-3 md:grid-cols-2 gap-10">
+          <div>
+            <img
+              src={sketch1}
+              className="block w-80 h-[450px] mx-auto border-4 border-black p-2"
+              alt="..."
+            ></img>
+          </div>
+          <div>
+            <img
+              src={sketch2}
+              className="block w-80 mx-auto h-[450px] border-4 border-black p-2"
+              alt="..."
+            ></img>
+          </div>
+          <div>
+            <img
+              src={sketch3}
+              className="block w-80 mx-auto h-[450px] border-4 border-black p-2"
+              alt="..."
+            ></img>
+          </div>
+          <div>
+            <img
+              src={sketch4}
+              className="block w-80 mx-auto h-[450px] border-4 border-black p-2"
+              alt="..."
+            ></img>
+          </div>
+          <div>
+            <img
+              src={sketch5}
+              className="block w-80 mx-auto h-[450px] border-4 border-black p-2"
+              alt="..."
+            ></img>
+          </div>
+          <div>
+            <img
+              src={sketch6}
+              className="block w-80 mx-auto h-[450px] border-4 border-black p-2"
+              alt="..."
+            ></img>
+          </div>
+        </div>
       </div>
     </div>
   );

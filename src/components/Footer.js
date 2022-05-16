@@ -24,7 +24,7 @@ const Footer = () => {
     <div id="footer" className="w-full bg-base-violet text-white">
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-width-[1000px] w-full grid md:grid-cols-3 py-10 px-20 text-md gap-20">
-          <div className="mx-auto">
+          <div className="md:mx-auto mx-0">
             <h2 className="text-2xl pb-4 font-semibold">Avadhoot Kulkarni</h2>
             <div>This is my Personal Website!</div>
             <div className="mt-6 flex">
