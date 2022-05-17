@@ -270,7 +270,7 @@ const Portfolio = () => {
         </button>
       </div> */}
       <div className="flex flex-col justify-center items-center w-full h-full pt-10 xl:px-52 md:px-10 lg:px-0 px-0">
-        <div className="w-full grid lg:grid-cols-3 md:grid-cols-2 gap-10">
+        <div className="w-full grid lg:grid-cols-3 md:grid-cols-2 gap-14">
           <div>
             <img
               src={sketch1}
