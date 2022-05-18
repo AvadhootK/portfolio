@@ -20,6 +20,7 @@
       var scroll = $(window).scrollTop();
       if (scroll > 80) {
         $(".navbarscrl").css("background", "#6e57e0");
+        $(".navbarscrl").css("box-shadow", "0px 0px 8px 0px #888888");
         $(".brand").css("color", "white");
         $(".alinks").css("color", "white");
         $(".alinks").hover(function() {
@@ -29,6 +30,7 @@
         })
       } else {
         $(".navbarscrl").css("background", "white");
+        $(".navbarscrl").css("box-shadow", "none");
         $(".brand").css("color", "#6e57e0");
         $(".alinks").css("color", "#242329");
         $(".alinks").hover(function() {
