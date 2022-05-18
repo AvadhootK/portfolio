@@ -8,15 +8,15 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="navbarscrl z-10 fixed w-full h-[70px] flex justify-between items-center md:px-20 px-10 bg-white text-base-black text-[18px] opacity-90 ">
-      <div className="text-base-violet text-3xl font-semibold brand">
+    <div className="navbarscrl z-10 fixed w-full h-[60px] flex justify-between items-center md:px-20 px-10 bg-white text-base-black text-[18px] opacity-90 ">
+      <div className="text-base-violet text-2xl font-semibold brand">
         <a href="/" className="logo">
           Avadhoot
         </a>
       </div>
 
       {/* menu */}
-      <ul className="navbar-nav hidden md:flex activenav">
+      <ul className="navbar-nav hidden lg:flex activenav">
         <li>
           <a className="hover:text-base-violet alinks" href="/#">
             Home
@@ -50,7 +50,7 @@ const Navbar = () => {
       </ul>
 
       {/* Hamburger */}
-      <button onClick={handleClick} className="md:hidden z-10 cursor-pointer">
+      <button onClick={handleClick} className="lg:hidden z-10 cursor-pointer">
         {!nav ? <FaBars /> : <FaTimes />}
       </button>
 

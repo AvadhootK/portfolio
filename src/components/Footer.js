@@ -22,10 +22,10 @@ const Footer = () => {
   ];
   return (
     <div id="footer" className="w-full bg-base-violet text-white">
-      <div className="flex flex-col justify-center items-center w-full h-full">
-        <div className="max-width-[1000px] w-full grid md:grid-cols-3 py-10 px-20 text-md gap-20">
+      <div className="flex flex-col justify-center items-center w-full h-full md:px-20 px-0">
+        <div className="max-width-[1000px] w-full grid md:grid-cols-3 py-10 px-20 text-md md:gap-20 gap-10">
           <div className="md:mx-auto mx-0">
-            <h2 className="text-2xl pb-4 font-semibold">Avadhoot Kulkarni</h2>
+            <h2 className="text-xl pb-4 font-semibold">Avadhoot Kulkarni</h2>
             <div>This is my Personal Website!</div>
             <div className="mt-6 flex">
               {/* eslint-disable-next-line*/}
@@ -49,8 +49,8 @@ const Footer = () => {
             </div>
           </div>
           <div className="md:mx-auto mx-0">
-            <h2 className="text-2xl pb-4 font-semibold">Links</h2>
-            <ul className="list-disc px-4">
+            <h2 className="text-xl pb-4 font-semibold">Links</h2>
+            <ul className="list-none">
               <li className="px-0">
                 <a className="hover:text-base-black" href="/#">
                   Home
@@ -84,7 +84,7 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h2 className="text-2xl pb-4 font-semibold">Contact</h2>
+            <h2 className="text-xl pb-4 font-semibold">Contact</h2>
             {contact.slice(0).map((items) => {
               return (
                 <div className="flex items-center gap-5 py-2">
@@ -98,7 +98,7 @@ const Footer = () => {
       </div>
       <div className="text-center text-sm pb-8">
         Created by{" "}
-        <a className="text-md foot" href="/">
+        <a className="text-md foot text-white" href="/">
           Avadhoot Kulkarni
         </a>{" "}
         | ©2022 All rights reserved
