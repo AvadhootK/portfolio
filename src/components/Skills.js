@@ -162,7 +162,7 @@ const Skills = () => {
             <hr className="bg-base-violet w-20 h-0.5 border-none mx-auto mt-1"></hr>
           </p>
         </div>
-        <div className="w-full grid md:grid-cols-2 gap-10 px-20">
+        <div className="w-full grid md:grid-cols-2 gap-10 lg:px-16 px-10">
           <div>
             {" "}
             {total.map((skill) => {
