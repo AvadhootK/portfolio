@@ -30,7 +30,7 @@ const Home = () => {
             <img
               src={self}
               alt="..."
-              className="rounded-full md:w-5/6 w-3/5 md:mx-auto mx-0"
+              className="rounded-full md:w-5/6 w-3/5 mx-auto"
             ></img>
           </div>
         </div>
