@@ -121,6 +121,7 @@ const Skills = () => {
       <h3 className="text-2xl text-base-violet font-medium py-4 lg:text-left text-center ml-0 md:ml-12">
         Other
       </h3>
+      <hr></hr>
       <div>
         <div className="w-full grid lg:grid-cols-4 grid-cols-3 text-base-gray py-3">
           <motion.button
