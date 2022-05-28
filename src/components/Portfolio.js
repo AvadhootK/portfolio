@@ -40,7 +40,7 @@ const Portfolio = () => {
                       Demo
                     </button>
                   </a> */}
-                  <a href="/#">
+                  <a href="/personal-web/#">
                     <button className="text-center px-2 py-1 font-medium text-black text-sm">
                       View Project
                     </button>
@@ -64,7 +64,7 @@ const Portfolio = () => {
                       Demo
                     </button>
                   </a> */}
-                  <a href="/#">
+                  <a href="/personal-web/#">
                     <button className="text-center px-2 py-1 font-medium text-black text-sm">
                       View Project
                     </button>
@@ -88,7 +88,7 @@ const Portfolio = () => {
                       Demo
                     </button>
                   </a> */}
-                  <a href="/#">
+                  <a href="/personal-web/#">
                     <button className="text-center px-2 py-1 font-medium text-black text-sm">
                       View Project
                     </button>
@@ -112,7 +112,7 @@ const Portfolio = () => {
                       Demo
                     </button>
                   </a> */}
-                  <a href="/#">
+                  <a href="/personal-web/#">
                     <button className="text-center px-2 py-1 font-medium text-black text-sm">
                       View Project
                     </button>
@@ -136,7 +136,7 @@ const Portfolio = () => {
                       Demo
                     </button>
                   </a> */}
-                  <a href="/#">
+                  <a href="/personal-web/#">
                     <button className="text-center px-2 py-1 font-medium text-black text-sm">
                       View Project
                     </button>
@@ -160,7 +160,7 @@ const Portfolio = () => {
                       Demo
                     </button>
                   </a> */}
-                  <a href="/#">
+                  <a href="/personal-web/#">
                     <button className="text-center px-2 py-1 font-medium text-black text-sm">
                       View Project
                     </button>
