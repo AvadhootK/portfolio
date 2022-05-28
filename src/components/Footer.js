@@ -37,25 +37,13 @@ const Footer = () => {
               >
                 <AiFillLinkedin size={27} />
               </motion.a>
-              <motion.a
-                className="px-2"
-                href="/personal-web/#"
-                whileHover={{ scale: 1.3 }}
-              >
+              <motion.a className="px-2" href="/#" whileHover={{ scale: 1.3 }}>
                 <AiOutlineGithub size={27} />
               </motion.a>
-              <motion.a
-                className="px-2"
-                href="/personal-web/#"
-                whileHover={{ scale: 1.3 }}
-              >
+              <motion.a className="px-2" href="/#" whileHover={{ scale: 1.3 }}>
                 <TiSocialTwitter size={27} />
               </motion.a>
-              <motion.a
-                className="px-2"
-                href="/personal-web/#"
-                whileHover={{ scale: 1.3 }}
-              >
+              <motion.a className="px-2" href="/#" whileHover={{ scale: 1.3 }}>
                 <TiSocialDribbble size={27} />
               </motion.a>
             </div>
@@ -93,7 +81,10 @@ const Footer = () => {
                 </a>
               </li>
               <li className="px-0">
-                <a className="hover:text-base-black" href="portfolio">
+                <a
+                  className="hover:text-base-black"
+                  href="/personal-web/#portfolio"
+                >
                   Portfolio
                 </a>
               </li>
@@ -122,7 +113,7 @@ const Footer = () => {
       </div>
       <div className="text-center text-sm pb-8">
         Created by{" "}
-        <a className="text-md foot text-white" href="/">
+        <a className="text-md foot text-white" href="/personal-web/">
           Avadhoot Kulkarni
         </a>{" "}
         | ©2022 All rights reserved
