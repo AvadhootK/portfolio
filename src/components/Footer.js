@@ -93,10 +93,7 @@ const Footer = () => {
                 </a>
               </li>
               <li className="px-0">
-                <a
-                  className="hover:text-base-black"
-                  href="/personal-web/#portfolio"
-                >
+                <a className="hover:text-base-black" href="portfolio">
                   Portfolio
                 </a>
               </li>
