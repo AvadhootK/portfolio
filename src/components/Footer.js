@@ -37,13 +37,25 @@ const Footer = () => {
               >
                 <AiFillLinkedin size={27} />
               </motion.a>
-              <motion.a className="px-2" href="/#" whileHover={{ scale: 1.3 }}>
+              <motion.a
+                className="px-2"
+                href="/personal-web/#"
+                whileHover={{ scale: 1.3 }}
+              >
                 <AiOutlineGithub size={27} />
               </motion.a>
-              <motion.a className="px-2" href="/#" whileHover={{ scale: 1.3 }}>
+              <motion.a
+                className="px-2"
+                href="/personal-web/#"
+                whileHover={{ scale: 1.3 }}
+              >
                 <TiSocialTwitter size={27} />
               </motion.a>
-              <motion.a className="px-2" href="/#" whileHover={{ scale: 1.3 }}>
+              <motion.a
+                className="px-2"
+                href="/personal-web/#"
+                whileHover={{ scale: 1.3 }}
+              >
                 <TiSocialDribbble size={27} />
               </motion.a>
             </div>
@@ -52,32 +64,47 @@ const Footer = () => {
             <h2 className="text-xl pb-4 font-semibold">Links</h2>
             <ul className="list-none">
               <li className="px-0">
-                <a className="hover:text-base-black" href="/#">
+                <a className="hover:text-base-black" href="/personal-web/#">
                   Home
                 </a>
               </li>
               <li className="px-0">
-                <a className="hover:text-base-black" href="/#about">
+                <a
+                  className="hover:text-base-black"
+                  href="/personal-web/#about"
+                >
                   About
                 </a>
               </li>
               <li className="px-0">
-                <a className="hover:text-base-black" href="/#experience">
+                <a
+                  className="hover:text-base-black"
+                  href="/personal-web/#experience"
+                >
                   Experience
                 </a>
               </li>
               <li className="px-0">
-                <a className="hover:text-base-black" href="/#skills">
+                <a
+                  className="hover:text-base-black"
+                  href="/personal-web/#skills"
+                >
                   Skills
                 </a>
               </li>
               <li className="px-0">
-                <a className="hover:text-base-black" href="/#portfolio">
+                <a
+                  className="hover:text-base-black"
+                  href="/personal-web/#portfolio"
+                >
                   Portfolio
                 </a>
               </li>
               <li className="px-0">
-                <a className="hover:text-base-black" href="/#contact">
+                <a
+                  className="hover:text-base-black"
+                  href="/personal-web/#contact"
+                >
                   Contact
                 </a>
               </li>

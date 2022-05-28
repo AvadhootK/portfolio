@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <div className="navbarscrl z-10 fixed w-full h-[60px] flex justify-between items-center md:px-20 px-10 bg-white text-base-black text-[18px] opacity-90 ">
       <div className="text-base-violet text-2xl font-semibold brand">
-        <a href="/" className="logo">
+        <a href="/personal-web/" className="logo">
           Avadhoot
         </a>
       </div>
@@ -18,32 +18,47 @@ const Navbar = () => {
       {/* menu */}
       <ul className="navbar-nav hidden lg:flex activenav">
         <li>
-          <a className="hover:text-base-violet alinks" href="/#">
+          <a className="hover:text-base-violet alinks" href="/personal-web/#">
             Home
           </a>
         </li>
         <li>
-          <a className="hover:text-base-violet alinks" href="/#about">
+          <a
+            className="hover:text-base-violet alinks"
+            href="/personal-web/#about"
+          >
             About
           </a>
         </li>
         <li>
-          <a className="hover:text-base-violet alinks" href="/#skills">
+          <a
+            className="hover:text-base-violet alinks"
+            href="/personal-web/#skills"
+          >
             Skills
           </a>
         </li>
         <li>
-          <a className="hover:text-base-violet alinks" href="/#experience">
+          <a
+            className="hover:text-base-violet alinks"
+            href="/personal-web/#experience"
+          >
             Experience
           </a>
         </li>
         <li>
-          <a className="hover:text-base-violet alinks" href="/#portfolio">
+          <a
+            className="hover:text-base-violet alinks"
+            href="/personal-web/#portfolio"
+          >
             Portfolio
           </a>
         </li>
         <li>
-          <a className="hover:text-base-violet alinks" href="/#contact">
+          <a
+            className="hover:text-base-violet alinks"
+            href="/personal-web/#contact"
+          >
             Contact
           </a>
         </li>
@@ -63,22 +78,22 @@ const Navbar = () => {
         }
       >
         <li className="py-2 text-lg">
-          <a href="/#">Home</a>
+          <a href="/personal-web/#">Home</a>
         </li>
         <li className="py-2 text-lg">
-          <a href="/#about">About</a>
+          <a href="/personal-web/#about">About</a>
         </li>
         <li className="py-2 text-lg">
-          <a href="/#skills">Skills</a>
+          <a href="/personal-web/#skills">Skills</a>
         </li>
         <li className="py-2 text-lg">
-          <a href="/#experience">Experience</a>
+          <a href="/personal-web/#experience">Experience</a>
         </li>
         <li className="py-2 text-lg">
-          <a href="/#portfolio">Portfolio</a>
+          <a href="/personal-web/#portfolio">Portfolio</a>
         </li>
         <li className="py-2 text-lg">
-          <a href="/#contact">Contact</a>
+          <a href="/personal-web/#contact">Contact</a>
         </li>
       </ul>
 
@@ -98,7 +113,7 @@ const Navbar = () => {
           <li className="w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#171515]">
             <a
               className="flex justify-between items-center w-full text-white"
-              href="/#"
+              href="/personal-web/#"
             >
               Github <AiOutlineGithub size={25} />
             </a>
@@ -106,7 +121,7 @@ const Navbar = () => {
           <li className="w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#00acee]">
             <a
               className="flex justify-between items-center w-full text-white"
-              href="/#"
+              href="/personal-web/#"
             >
               Twitter <TiSocialTwitter size={25} />
             </a>
@@ -114,7 +129,7 @@ const Navbar = () => {
           <li className="w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-teal-900">
             <a
               className="flex justify-between items-center w-full text-white"
-              href="/#"
+              href="/personal-web/#"
             >
               Website <TiSocialDribbble size={25} />
             </a>
