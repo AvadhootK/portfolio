@@ -2,6 +2,7 @@ import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { AiOutlineGithub, AiFillLinkedin } from "react-icons/ai";
 import { TiSocialDribbble, TiSocialTwitter } from "react-icons/ti";
+import { motion } from "framer-motion";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -77,24 +78,24 @@ const Navbar = () => {
             : "absolute top-0 right-0 w-2/5 h-screen bg-base-violet text-white flex flex-col pt-20 items-end pr-5"
         }
       >
-        <li className="py-2 text-lg">
+        <motion.li className="py-2 text-lg" whileHover={{ translateX: -13 }}>
           <a href="/personal-web/#">Home</a>
-        </li>
-        <li className="py-2 text-lg">
+        </motion.li>
+        <motion.li className="py-2 text-lg" whileHover={{ translateX: -13 }}>
           <a href="/personal-web/#about">About</a>
-        </li>
-        <li className="py-2 text-lg">
+        </motion.li>
+        <motion.li className="py-2 text-lg " whileHover={{ translateX: -13 }}>
           <a href="/personal-web/#skills">Skills</a>
-        </li>
-        <li className="py-2 text-lg">
+        </motion.li>
+        <motion.li className="py-2 text-lg " whileHover={{ translateX: -13 }}>
           <a href="/personal-web/#experience">Experience</a>
-        </li>
-        <li className="py-2 text-lg">
+        </motion.li>
+        <motion.li className="py-2 text-lg " whileHover={{ translateX: -13 }}>
           <a href="/personal-web/#portfolio">Portfolio</a>
-        </li>
-        <li className="py-2 text-lg">
+        </motion.li>
+        <motion.li className="py-2 text-lg " whileHover={{ translateX: -13 }}>
           <a href="/personal-web/#contact">Contact</a>
-        </li>
+        </motion.li>
       </ul>
 
       {/* Social icons */}

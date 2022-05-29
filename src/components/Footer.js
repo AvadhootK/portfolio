@@ -52,47 +52,32 @@ const Footer = () => {
             <h2 className="text-xl pb-4 font-semibold">Links</h2>
             <ul className="list-none">
               <li className="px-0">
-                <a className="hover:text-base-black" href="/personal-web/#">
+                <a className="hover:underline" href="/personal-web/#">
                   Home
                 </a>
               </li>
               <li className="px-0">
-                <a
-                  className="hover:text-base-black"
-                  href="/personal-web/#about"
-                >
+                <a className="hover:underline" href="/personal-web/#about">
                   About
                 </a>
               </li>
               <li className="px-0">
-                <a
-                  className="hover:text-base-black"
-                  href="/personal-web/#experience"
-                >
+                <a className="hover:underline" href="/personal-web/#experience">
                   Experience
                 </a>
               </li>
               <li className="px-0">
-                <a
-                  className="hover:text-base-black"
-                  href="/personal-web/#skills"
-                >
+                <a className="hover:underline" href="/personal-web/#skills">
                   Skills
                 </a>
               </li>
               <li className="px-0">
-                <a
-                  className="hover:text-base-black"
-                  href="/personal-web/#portfolio"
-                >
+                <a className="hover:underline" href="/personal-web/#portfolio">
                   Portfolio
                 </a>
               </li>
               <li className="px-0">
-                <a
-                  className="hover:text-base-black"
-                  href="/personal-web/#contact"
-                >
+                <a className="hover:underline" href="/personal-web/#contact">
                   Contact
                 </a>
               </li>
