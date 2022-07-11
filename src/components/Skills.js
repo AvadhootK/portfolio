@@ -68,7 +68,7 @@ const Skills = () => {
   const database = (
     <div className="pb-4 boxshadow my-8">
       <h3 className="text-2xl text-base-violet font-medium py-4 lg:text-left text-center ml-0 md:ml-12">
-        Database Management
+        Database Management System
       </h3>
       <hr></hr>
       <div>
@@ -162,7 +162,7 @@ const Skills = () => {
             <hr className="bg-base-violet w-20 h-0.5 border-none mx-auto mt-1"></hr>
           </p>
         </div>
-        <div className="w-full grid md:grid-cols-2 gap-10 lg:px-16 px-10">
+        <div className="w-full grid md:grid-cols-2 gap-0 lg:px-20 px-10">
           <div>
             {" "}
             {total.map((skill) => {
@@ -233,9 +233,7 @@ const Skills = () => {
                     trailColor: "#c1b6fc",
                   })}
                 />
-                <h3 className="text-center pt-2 text-xl font-medium">
-                  Database
-                </h3>
+                <h3 className="text-center pt-2 text-xl font-medium">DBMS</h3>
               </div>
             </div>
           </div>
