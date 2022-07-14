@@ -175,7 +175,7 @@ const Portfolio = () => {
             Featured Posts
           </p>
           <p className="text-xl font-normal text-center">
-            Check out some of my drawings!
+            Check out some of my sketches!
           </p>
         </div>
       </div>

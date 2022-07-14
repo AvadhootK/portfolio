@@ -162,16 +162,16 @@ const Skills = () => {
             <hr className="bg-base-violet w-20 h-0.5 border-none mx-auto mt-1"></hr>
           </p>
         </div>
-        <div className="w-full grid md:grid-cols-2 gap-0 lg:px-20 px-10">
-          <div>
+        <div className="w-full grid md:grid-cols-3 grid-cols-1 gap-0 lg:pl-[130px] lg:px-20 px-10">
+          <div className="col-span-2">
             {" "}
             {total.map((skill) => {
               return <div>{skill}</div>;
             })}
           </div>
           <div>
-            <div className="w-full grid lg:grid-cols-2 gap-20 lg:gap-0 py-16">
-              <div className="w-40 mx-auto">
+            <div className="w-full grid lg:grid-cols-1 gap-20 lg:gap-0 py-16 pl-0 lg:pl-20">
+              <div className="w-40 mx-auto lg:pb-16 pb-0">
                 <CircularProgressbar
                   value={80}
                   text="80%"
@@ -204,8 +204,8 @@ const Skills = () => {
                 </h3>
               </div>
             </div>
-            <div className="w-full grid lg:grid-cols-2 gap-20 lg:gap-0">
-              <div className="w-40 mx-auto">
+            <div className="w-full grid lg:grid-cols-1 gap-20 lg:gap-0 pl-0 lg:pl-20">
+              <div className="w-40 mx-auto lg:pb-16 pb-0">
                 <CircularProgressbar
                   value={85}
                   text="85%"
