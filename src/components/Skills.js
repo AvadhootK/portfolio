@@ -162,7 +162,7 @@ const Skills = () => {
             <hr className="bg-base-violet w-20 h-0.5 border-none mx-auto mt-1"></hr>
           </p>
         </div>
-        <div className="w-full grid md:grid-cols-3 grid-cols-1 gap-0 lg:pl-[130px] lg:px-20 px-10">
+        <div className="w-full grid md:grid-cols-3 grid-cols-1 gap-0 lg:pl-[130px] lg:px-0 px-10">
           <div className="col-span-2">
             {" "}
             {total.map((skill) => {
@@ -170,70 +170,78 @@ const Skills = () => {
             })}
           </div>
           <div>
-            <div className="w-full grid lg:grid-cols-1 gap-20 lg:gap-0 py-16 pl-0 lg:pl-20">
-              <div className="w-40 mx-auto lg:pb-16 pb-0">
-                <CircularProgressbar
-                  value={80}
-                  text="80%"
-                  strokeWidth={5}
-                  styles={buildStyles({
-                    textSize: "17px",
-                    textColor: "#6d6a7c",
-                    pathColor: "#6e57e0",
-                    trailColor: "#c1b6fc",
-                  })}
-                />
-                <h2 className="text-center pt-2 text-xl font-medium">
+            <div className="w-full grid lg:grid-cols-1 gap-20 lg:gap-0 py-16">
+              <div className="w-full mx-auto lg:pb-16 pb-0">
+                <div className="w-40 mx-auto">
+                  <CircularProgressbar
+                    value={80}
+                    text="80%"
+                    strokeWidth={5}
+                    styles={buildStyles({
+                      textSize: "17px",
+                      textColor: "#6d6a7c",
+                      pathColor: "#6e57e0",
+                      trailColor: "#c1b6fc",
+                    })}
+                  />
+                </div>
+                <h2 className="text-center pt-4 text-xl font-medium">
                   Web Development
                 </h2>
               </div>
-              <div className="w-40 mx-auto">
-                <CircularProgressbar
-                  value={85}
-                  text="85%"
-                  strokeWidth={5}
-                  styles={buildStyles({
-                    textSize: "17px",
-                    textColor: "#6d6a7c",
-                    pathColor: "#6e57e0",
-                    trailColor: "#c1b6fc",
-                  })}
-                />
-                <h3 className="text-center pt-2 text-xl font-medium">
+              <div className="w-full mx-auto">
+                <div className="w-40 mx-auto">
+                  <CircularProgressbar
+                    value={80}
+                    text="80%"
+                    strokeWidth={5}
+                    styles={buildStyles({
+                      textSize: "17px",
+                      textColor: "#6d6a7c",
+                      pathColor: "#6e57e0",
+                      trailColor: "#c1b6fc",
+                    })}
+                  />
+                </div>
+                <h3 className="text-center pt-4 text-xl font-medium">
                   Machine Learning
                 </h3>
               </div>
             </div>
-            <div className="w-full grid lg:grid-cols-1 gap-20 lg:gap-0 pl-0 lg:pl-20">
-              <div className="w-40 mx-auto lg:pb-16 pb-0">
-                <CircularProgressbar
-                  value={85}
-                  text="85%"
-                  strokeWidth={5}
-                  styles={buildStyles({
-                    textSize: "17px",
-                    textColor: "#6d6a7c",
-                    pathColor: "#6e57e0",
-                    trailColor: "#c1b6fc",
-                  })}
-                />
-                <h3 className="text-center pt-2 text-xl font-medium">
+            <div className="w-full grid lg:grid-cols-1 gap-20 lg:gap-0">
+              <div className="w-full mx-auto lg:pb-16 pb-0">
+                <div className="w-40 mx-auto">
+                  <CircularProgressbar
+                    value={80}
+                    text="80%"
+                    strokeWidth={5}
+                    styles={buildStyles({
+                      textSize: "17px",
+                      textColor: "#6d6a7c",
+                      pathColor: "#6e57e0",
+                      trailColor: "#c1b6fc",
+                    })}
+                  />
+                </div>
+                <h3 className="text-center pt-4 text-xl font-medium">
                   Programming
                 </h3>
               </div>
-              <div className="w-40 mx-auto">
-                <CircularProgressbar
-                  value={75}
-                  text="75%"
-                  strokeWidth={5}
-                  styles={buildStyles({
-                    textSize: "17px",
-                    textColor: "#6d6a7c",
-                    pathColor: "#6e57e0",
-                    trailColor: "#c1b6fc",
-                  })}
-                />
-                <h3 className="text-center pt-2 text-xl font-medium">DBMS</h3>
+              <div className="w-full mx-auto">
+                <div className="w-40 mx-auto">
+                  <CircularProgressbar
+                    value={75}
+                    text="75%"
+                    strokeWidth={5}
+                    styles={buildStyles({
+                      textSize: "17px",
+                      textColor: "#6d6a7c",
+                      pathColor: "#6e57e0",
+                      trailColor: "#c1b6fc",
+                    })}
+                  />
+                </div>
+                <h3 className="text-center pt-4 text-xl font-medium">DBMS</h3>
               </div>
             </div>
           </div>
