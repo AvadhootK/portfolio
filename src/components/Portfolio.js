@@ -17,13 +17,13 @@ const Portfolio = () => {
   return (
     <div
       id="portfolio"
-      className=" w-full pb-20 pt-[120px] text-base-black bg-white"
+      className=" w-full pb-20 pt-[120px] text-black bg-white"
     >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-semibold text-center">Portfolio</p>
-          <hr className="bg-base-violet w-20 h-0.5 border-none mt-1 mx-auto"></hr>
-          <div className="grid sm:grid-col-2 md:grid-cols-3 gap-10 p-14">
+          <hr className="bg-base-blue w-20 h-0.5 border-none mt-1 mx-auto"></hr>
+          <div className="grid sm:grid-col-2 md:grid-cols-3 gap-16 p-14">
             <motion.div
               style={{ backgroundImage: `url(${work2})` }}
               className="shadow-md shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
@@ -173,6 +173,7 @@ const Portfolio = () => {
         <div>
           <p className="text-3xl font-semibold text-center mb-10">
             Featured Posts
+            <hr className="bg-base-blue w-20 h-0.5 border-none mt-1 mx-auto"></hr>
           </p>
           <p className="text-xl font-normal text-center">
             Check out some of my sketches!

@@ -21,7 +21,7 @@ const Footer = () => {
     },
   ];
   return (
-    <div id="footer" className="w-full bg-base-violet text-white">
+    <div id="footer" className="w-full bg-black text-white">
       <div className="flex flex-col justify-center items-center w-full h-full md:px-20 px-0">
         <div className="max-width-[1000px] w-full grid md:grid-cols-3 py-10 px-20 text-md md:gap-20 gap-10">
           <div className="md:mx-auto mx-0">
@@ -98,7 +98,7 @@ const Footer = () => {
       </div>
       <div className="text-center text-sm pb-8">
         Created by{" "}
-        <a className="text-md foot text-white" href="/personal-web/">
+        <a className="text-md foot text-base-blue" href="/personal-web/">
           Avadhoot Kulkarni
         </a>{" "}
         | ©2022 All rights reserved

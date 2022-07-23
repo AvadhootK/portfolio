@@ -1,18 +1,18 @@
-import code from "../assets/codethinking.svg";
+// import code from "../assets/codethinking.svg";
 
 const Contact = () => {
   return (
-    <div id="contact" className="w-full bg-white text-base-black pt-[120px]">
+    <div id="contact" className="w-full bg-white text-black pt-[120px]">
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-width-[1000px] w-full pb-8 text-center">
           <p className="text-4xl font-semibold">
             Contact Me
-            <hr className="bg-base-violet w-20 h-0.5 border-none mx-auto mt-1"></hr>
+            <hr className="bg-base-blue w-20 h-0.5 border-none mx-auto mt-1"></hr>
           </p>
         </div>
-        <div class="w-96 mx-auto pt-10 pb-20">
-          <img src={code} alt="..."></img>
-          <div class="p-6 border border-base-gray sm:rounded-md">
+        <div class="lg:w-1/2 w-3/4 mx-auto pt-10 pb-20">
+          {/* <img src={code} alt="..."></img> */}
+          <div class="rounded-md bg-base-blue text-white p-10">
             <form>
               <label class="block mb-6">
                 <span className="text-xl">Name</span>
@@ -20,11 +20,11 @@ const Contact = () => {
                   type="text"
                   name="name"
                   class="
-                  text-base-black
+                  text-black
             block
             w-full
-            p-1
-            mt-1
+            p-2
+            mt-2.5
             border-b-[1px]
             border-base-gray
             focus:outline-none
@@ -39,12 +39,12 @@ const Contact = () => {
                   name="email"
                   type="email"
                   class="
-                  text-base-black
+                  text-black
             block
             w-full
-            p-1
+            p-2
             border-b-[1px]
-            mt-1
+            mt-2.5
             border-base-gray
             focus:outline-none
             shadow-sm
@@ -58,11 +58,11 @@ const Contact = () => {
                 <textarea
                   name="message"
                   class="
-                  text-base-black
+                  text-black
             block
             w-full
-            p-1
-            mt-1
+            p-2
+            mt-2.5
             border-[1px]
             border-base-gray
             focus:outline-none
@@ -72,23 +72,23 @@ const Contact = () => {
                   placeholder="Write a message..."
                 ></textarea>
               </label>
-              <div class="mb-6 text-center">
-                <button
+              <div class="py-3 text-center">
+                <div
                   type="submit"
                   class="
                   text-lg
-            py-2
-            px-8
+            py-2.5
             text-white
-            bg-base-violet
-            rounded-md
+            bg-[#00cfff]
+            hover:bg-black
+            rounded-sm
             transition-colors
             duration-150
             focus:shadow-outline
           "
                 >
                   Send
-                </button>
+                </div>
               </div>
             </form>
           </div>

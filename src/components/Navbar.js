@@ -9,8 +9,8 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="navbarscrl z-10 fixed w-full h-[60px] flex justify-between items-center md:px-20 px-10 bg-white text-base-black text-[18px] opacity-90 ">
-      <div className="text-base-violet text-2xl font-semibold brand">
+    <div className="navbarscrl z-10 fixed w-full h-[60px] flex justify-between items-center md:px-20 px-10 bg-white text-black text-[18px] opacity-90 ">
+      <div className="text-base-blue text-2xl font-semibold brand">
         <a href="/personal-web/" className="logo">
           Avadhoot
         </a>
@@ -19,13 +19,13 @@ const Navbar = () => {
       {/* menu */}
       <ul className="navbar-nav hidden lg:flex activenav">
         <li>
-          <a className="hover:text-base-violet alinks" href="/personal-web/#">
+          <a className="hover:text-base-blue alinks" href="/personal-web/#">
             Home
           </a>
         </li>
         <li>
           <a
-            className="hover:text-base-violet alinks"
+            className="hover:text-base-blue alinks"
             href="/personal-web/#about"
           >
             About
@@ -33,7 +33,7 @@ const Navbar = () => {
         </li>
         <li>
           <a
-            className="hover:text-base-violet alinks"
+            className="hover:text-base-blue alinks"
             href="/personal-web/#skills"
           >
             Skills
@@ -41,7 +41,7 @@ const Navbar = () => {
         </li>
         <li>
           <a
-            className="hover:text-base-violet alinks"
+            className="hover:text-base-blue alinks"
             href="/personal-web/#experience"
           >
             Experience
@@ -49,7 +49,7 @@ const Navbar = () => {
         </li>
         <li>
           <a
-            className="hover:text-base-violet alinks"
+            className="hover:text-base-blue alinks"
             href="/personal-web/#portfolio"
           >
             Portfolio
@@ -57,7 +57,7 @@ const Navbar = () => {
         </li>
         <li>
           <a
-            className="hover:text-base-violet alinks"
+            className="hover:text-base-blue alinks"
             href="/personal-web/#contact"
           >
             Contact
@@ -75,7 +75,7 @@ const Navbar = () => {
         className={
           !nav
             ? "hidden"
-            : "absolute top-0 right-0 w-2/5 h-screen bg-base-violet text-white flex flex-col pt-20 items-end pr-5"
+            : "absolute top-0 right-0 w-2/5 h-screen bg-base-blue text-white flex flex-col pt-20 items-end pr-5"
         }
       >
         <motion.li className="py-2 text-lg" whileHover={{ translateX: -13 }}>

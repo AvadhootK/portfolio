@@ -19,7 +19,7 @@
     $(window).scroll(function () {
       var scroll = $(window).scrollTop();
       if (scroll > 60) {
-        $(".navbarscrl").css("background", "#6e57e0");
+        $(".navbarscrl").css("background", "#0045f6");
         $(".brand").css("color", "white");
         $(".alinks").css("color", "white");
         $(".alinks").hover(function() {
@@ -29,12 +29,12 @@
         })
       } else {
         $(".navbarscrl").css("background", "white");
-        $(".brand").css("color", "#6e57e0");
-        $(".alinks").css("color", "#242329");
+        $(".brand").css("color", "#0045f6");
+        $(".alinks").css("color", "black");
         $(".alinks").hover(function() {
-          $(this).css('color','#6e57e0');
+          $(this).css('color','#0045f6');
         },function() {
-          $(this).css('color','#242329')
+          $(this).css('color','black')
         })
       }
     });

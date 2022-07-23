@@ -36,8 +36,8 @@ html{
 .content-div:hover{
     background-image: linear-gradient(
         to right,
-        #c1b6fc,
-        #c1b6fc
+        #b6c9fb,
+        #5582f4
     ) !important;
 }
 

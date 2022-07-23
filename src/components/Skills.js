@@ -22,7 +22,7 @@ import express from "../assets/express.png";
 const Skills = () => {
   const frontend = (
     <div className="pb-4 boxshadow my-8">
-      <h3 className="text-2xl text-base-violet py-4 font-medium lg:text-left text-center ml-0 md:ml-12">
+      <h3 className="text-2xl text-base-blue py-4 font-medium lg:text-left text-center ml-0 md:ml-12">
         Web Development
       </h3>
       <hr></hr>
@@ -67,7 +67,7 @@ const Skills = () => {
   );
   const database = (
     <div className="pb-4 boxshadow my-8">
-      <h3 className="text-2xl text-base-violet font-medium py-4 lg:text-left text-center ml-0 md:ml-12">
+      <h3 className="text-2xl text-base-blue font-medium py-4 lg:text-left text-center ml-0 md:ml-12">
         Database Management System
       </h3>
       <hr></hr>
@@ -91,7 +91,7 @@ const Skills = () => {
   );
   const programming = (
     <div className="pb-4 boxshadow my-8">
-      <h3 className="text-2xl text-base-violet font-medium py-4 lg:text-left text-center ml-0 md:ml-12">
+      <h3 className="text-2xl text-base-blue font-medium py-4 lg:text-left text-center ml-0 md:ml-12">
         Programming
       </h3>
       <hr></hr>
@@ -118,7 +118,7 @@ const Skills = () => {
   );
   const other = (
     <div className="pb-4 boxshadow my-8">
-      <h3 className="text-2xl text-base-violet font-medium py-4 lg:text-left text-center ml-0 md:ml-12">
+      <h3 className="text-2xl text-base-blue font-medium py-4 lg:text-left text-center ml-0 md:ml-12">
         Other
       </h3>
       <hr></hr>
@@ -151,15 +151,12 @@ const Skills = () => {
   );
   const total = [frontend, database, programming, other];
   return (
-    <div
-      id="skills"
-      className="w-full pb-20 pt-[120px] bg-white text-base-black"
-    >
+    <div id="skills" className="w-full pb-20 pt-[120px] bg-white text-black">
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-width-[1000px] w-full pb-8 text-center">
           <p className="text-4xl font-semibold mb-3">
             Skills
-            <hr className="bg-base-violet w-20 h-0.5 border-none mx-auto mt-1"></hr>
+            <hr className="bg-base-blue w-20 h-0.5 border-none mx-auto mt-1"></hr>
           </p>
         </div>
         <div className="w-full grid md:grid-cols-3 grid-cols-1 gap-0 lg:pl-[130px] lg:px-0 px-10">
@@ -179,9 +176,11 @@ const Skills = () => {
                     strokeWidth={5}
                     styles={buildStyles({
                       textSize: "17px",
-                      textColor: "#6d6a7c",
-                      pathColor: "#6e57e0",
-                      trailColor: "#c1b6fc",
+                      // textColor: "#6d6a7c",
+                      textColor: "#000",
+                      pathColor: "#0045f6",
+                      // trailColor: "#c1b6fc",
+                      trailColor: "#8eaaf2",
                     })}
                   />
                 </div>
@@ -197,9 +196,11 @@ const Skills = () => {
                     strokeWidth={5}
                     styles={buildStyles({
                       textSize: "17px",
-                      textColor: "#6d6a7c",
-                      pathColor: "#6e57e0",
-                      trailColor: "#c1b6fc",
+                      // textColor: "#6d6a7c",
+                      textColor: "#000",
+                      pathColor: "#0045f6",
+                      // trailColor: "#c1b6fc",
+                      trailColor: "#8eaaf2",
                     })}
                   />
                 </div>
@@ -217,9 +218,11 @@ const Skills = () => {
                     strokeWidth={5}
                     styles={buildStyles({
                       textSize: "17px",
-                      textColor: "#6d6a7c",
-                      pathColor: "#6e57e0",
-                      trailColor: "#c1b6fc",
+                      // textColor: "#6d6a7c",
+                      textColor: "#000",
+                      pathColor: "#0045f6",
+                      // trailColor: "#c1b6fc",
+                      trailColor: "#8eaaf2",
                     })}
                   />
                 </div>
@@ -235,9 +238,11 @@ const Skills = () => {
                     strokeWidth={5}
                     styles={buildStyles({
                       textSize: "17px",
-                      textColor: "#6d6a7c",
-                      pathColor: "#6e57e0",
-                      trailColor: "#c1b6fc",
+                      // textColor: "#6d6a7c",
+                      textColor: "#000",
+                      pathColor: "#0045f6",
+                      // trailColor: "#c1b6fc",
+                      trailColor: "#8eaaf2",
                     })}
                   />
                 </div>
