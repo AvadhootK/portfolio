@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personal-web/static/css/main.1bfe4bfb.css",
-    "main.js": "/personal-web/static/js/main.bad2fb8b.js",
+    "main.css": "/personal-web/static/css/main.3e672e26.css",
+    "main.js": "/personal-web/static/js/main.a6011534.js",
     "static/media/self.jpg": "/personal-web/static/media/self.fb0337ca04dd1d589905.jpg",
     "static/media/work1.jpg": "/personal-web/static/media/work1.e497bac5121e4fb371a3.jpg",
     "static/media/sketch1.jpg": "/personal-web/static/media/sketch1.7180510c665a058c5ddb.jpg",
@@ -16,13 +16,12 @@
     "static/media/work4.jpg": "/personal-web/static/media/work4.82aff82e0146e4853ab7.jpg",
     "static/media/work5.jpg": "/personal-web/static/media/work5.597faa99f4bf8a56e6bc.jpg",
     "static/media/aboutme.svg": "/personal-web/static/media/aboutme.7e15fdfeedeb653ba7301d39ae835c80.svg",
-    "static/media/codethinking.svg": "/personal-web/static/media/codethinking.1de3148ad2c553a261136cef14411b30.svg",
     "index.html": "/personal-web/index.html",
-    "main.1bfe4bfb.css.map": "/personal-web/static/css/main.1bfe4bfb.css.map",
-    "main.bad2fb8b.js.map": "/personal-web/static/js/main.bad2fb8b.js.map"
+    "main.3e672e26.css.map": "/personal-web/static/css/main.3e672e26.css.map",
+    "main.a6011534.js.map": "/personal-web/static/js/main.a6011534.js.map"
   },
   "entrypoints": [
-    "static/css/main.1bfe4bfb.css",
-    "static/js/main.bad2fb8b.js"
+    "static/css/main.3e672e26.css",
+    "static/js/main.a6011534.js"
   ]
 }
