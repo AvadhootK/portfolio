@@ -98,7 +98,7 @@ const Footer = () => {
       </div>
       <div className="text-center text-sm pb-8">
         Created by{" "}
-        <a className="text-md foot text-base-blue" href="/personal-web/">
+        <a className="text-md foot" href="/personal-web/">
           Avadhoot Kulkarni
         </a>{" "}
         | ©2022 All rights reserved
