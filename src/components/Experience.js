@@ -5,8 +5,14 @@ const Experience = () => {
   const expi = [
     {
       title: "BE, Information Technology",
-      org: "PVGCOET",
+      org: "PVG's College Of Engineering & Technology, Pune",
       time: "2019-2023",
+      desc: "Responsibility:",
+    },
+    {
+      title: "Higher Secondary School, CS",
+      org: "Fergusson College, Pune",
+      time: "2018-2019",
       desc: "Responsibility:",
     },
     {
@@ -19,6 +25,12 @@ const Experience = () => {
       title: "DS & ML Intern",
       org: "Tathasthu",
       time: "Mar 2022-April 2022",
+      desc: "",
+    },
+    {
+      title: "Artificial Intelligence Intern",
+      org: "InMovidu Technologies, BITS Pilani",
+      time: "Jun 2020-Aug 2020",
       desc: "",
     },
   ];
@@ -38,7 +50,7 @@ const Experience = () => {
               Education
             </h2>
             <div className="border-l-[3px] border-base-blue">
-              {expi.slice(0, 1).map((items) => {
+              {expi.slice(0, 2).map((items) => {
                 return (
                   <div>
                     <div className="flex ml-6 mb-10">
@@ -69,7 +81,7 @@ const Experience = () => {
               <IoBagRemove /> Work Experience
             </h2>
             <div className="border-l-[3px] border-base-blue">
-              {expi.slice(1).map((items) => {
+              {expi.slice(2).map((items) => {
                 return (
                   <div>
                     <div className="flex ml-6 mb-10">
