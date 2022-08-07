@@ -18,6 +18,7 @@ import java from "../assets/java.png";
 import python from "../assets/python.png";
 import ts from "../assets/ts.png";
 import express from "../assets/express.png";
+import django from "../assets/django.png";
 
 const Skills = () => {
   const frontend = (
@@ -60,6 +61,10 @@ const Skills = () => {
           <motion.button whileHover={{ scale: 1.1 }} className=" m-4 mx-auto">
             <img src={ts} alt="..." className="mx-auto"></img>
             Typescript
+          </motion.button>
+          <motion.button whileHover={{ scale: 1.1 }} className=" m-4 mx-auto">
+            <img src={django} alt="..." className="mx-auto"></img>
+            Django
           </motion.button>
         </div>
       </div>
