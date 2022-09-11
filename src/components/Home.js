@@ -1,5 +1,6 @@
 import self from "../assets/self.jpg";
 import { BiRightArrow } from "react-icons/bi";
+import Typical from "react-typical";
 
 const Home = () => {
   return (
@@ -11,7 +12,20 @@ const Home = () => {
             <h1 className="text-4xl font-bold text-black my-3">
               I'm Avadhoot Kulkarni
             </h1>
-            <h2 className="text-base-blue text-3xl">Full Stack Developer.</h2>
+            <h2 className="text-base-blue text-3xl">
+              <Typical
+                loop={Infinity}
+                wrapper="b"
+                steps={[
+                  "Full Stack Developer.",
+                  1000,
+                  "Machine Learning enthusiast.",
+                  1000,
+                  "Blockchain & Web3 enthusiast.",
+                  1000,
+                ]}
+              ></Typical>
+            </h2>
             <div>
               <a
                 className="text-white bg-base-blue group w-40 mt-14 px-6 py-3 my-2 flex items-center gap-2 border-2

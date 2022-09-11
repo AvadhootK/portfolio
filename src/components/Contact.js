@@ -10,9 +10,9 @@ const Contact = () => {
             <hr className="bg-base-blue w-20 h-0.5 border-none mx-auto mt-1"></hr>
           </p>
         </div>
-        <div class="lg:w-2/5 w-3/4 mx-auto pt-10 pb-20">
+        <div class="lg:w-2/5 w-3/4 mx-auto pt-10 pb-20 ">
           {/* <img src={code} alt="..."></img> */}
-          <div class="rounded-md bg-base-blue text-white p-10">
+          <div class="rounded-md bg-base-blue text-white p-10 shadow-2xl">
             <form>
               <label class="block mb-6">
                 <span className="text-xl">Name</span>
@@ -75,17 +75,21 @@ const Contact = () => {
               <div class="py-3 text-center">
                 <div
                   type="submit"
-                  style={{ cursor: "pointer" }}
+                  style={{
+                    cursor: "pointer",
+                    borderRadius: "50px",
+                  }}
                   class="
                   text-lg
             py-2.5
+            mx-auto
             text-white
             bg-black
             hover:bg-black
-            rounded-sm
             transition-colors
             duration-150
             focus:shadow-outline
+            w-28
           "
                 >
                   Send

@@ -175,7 +175,7 @@ const Portfolio = () => {
             Featured Posts
             <hr className="bg-base-blue w-20 h-0.5 border-none mt-1 mx-auto"></hr>
           </p>
-          <p className="text-xl font-normal text-center">
+          <p className="text-2xl font-medium text-center">
             Check out some of my sketches!
           </p>
         </div>
