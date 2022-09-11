@@ -36,10 +36,10 @@ html{
 .content-div:hover{
     background-image: linear-gradient(
         to right,
-        #b6c9fb,
-        #5582f4
+        #3399ff,
+        #b3d6ff
     ) !important;
-}
+} 
 
 .logo,.foot{
     font-family: 'Sriracha', cursive !important;

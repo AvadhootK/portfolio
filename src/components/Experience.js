@@ -18,7 +18,13 @@ const Experience = () => {
     {
       title: "Software Engineer Intern",
       org: "FTB Communications",
-      time: "2021-2022",
+      time: "Aug 2021-Aug 2022",
+      desc: "",
+    },
+    {
+      title: "Machine Learning Intern",
+      org: "ArrayPointer",
+      time: "Feb 2022-May 2022",
       desc: "",
     },
     {

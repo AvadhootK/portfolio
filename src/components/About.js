@@ -16,7 +16,7 @@ const About = () => {
                 <hr className="bg-base-blue w-20 h-0.5 border-none ml-10 mt-1"></hr>
               </p>
             </div>
-            <p className="text-base-gray">
+            <p>
               I am Avadhoot Kulkarni, currently in third year of IT engineering.
               I am passionate about web development and machine learning with
               experience working across full-stack web development.

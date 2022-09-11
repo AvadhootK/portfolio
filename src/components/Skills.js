@@ -183,9 +183,9 @@ const Skills = () => {
                       textSize: "17px",
                       // textColor: "#6d6a7c",
                       textColor: "#000",
-                      pathColor: "#0045f6",
+                      pathColor: "#3399ff",
                       // trailColor: "#c1b6fc",
-                      trailColor: "#8eaaf2",
+                      trailColor: "#b3d6ff",
                     })}
                   />
                 </div>
@@ -203,9 +203,9 @@ const Skills = () => {
                       textSize: "17px",
                       // textColor: "#6d6a7c",
                       textColor: "#000",
-                      pathColor: "#0045f6",
+                      pathColor: "#3399ff",
                       // trailColor: "#c1b6fc",
-                      trailColor: "#8eaaf2",
+                      trailColor: "#b3d6ff",
                     })}
                   />
                 </div>
@@ -225,9 +225,9 @@ const Skills = () => {
                       textSize: "17px",
                       // textColor: "#6d6a7c",
                       textColor: "#000",
-                      pathColor: "#0045f6",
+                      pathColor: "#3399ff",
                       // trailColor: "#c1b6fc",
-                      trailColor: "#8eaaf2",
+                      trailColor: "#b3d6ff",
                     })}
                   />
                 </div>
@@ -245,9 +245,9 @@ const Skills = () => {
                       textSize: "17px",
                       // textColor: "#6d6a7c",
                       textColor: "#000",
-                      pathColor: "#0045f6",
+                      pathColor: "#3399ff",
                       // trailColor: "#c1b6fc",
-                      trailColor: "#8eaaf2",
+                      trailColor: "#b3d6ff",
                     })}
                   />
                 </div>
