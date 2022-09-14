@@ -28,7 +28,7 @@ const Home = () => {
             </h2>
             <div>
               <a
-                className="text-white bg-base-blue group w-40 mt-14 px-6 py-3 my-2 flex items-center gap-2 border-2
+                className="text-white bg-base-blue group w-40 mt-14 px-6 py-3 my-2 flex items-center gap-2 border-2 justify-center 
                 border-white
                 hover:bg-white
                 hover:border-base-blue
