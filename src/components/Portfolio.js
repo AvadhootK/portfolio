@@ -19,20 +19,20 @@ const Portfolio = () => {
       id="portfolio"
       className=" w-full pb-20 pt-[120px] text-black bg-white"
     >
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+      <div className="mx-auto py-4 px-4 md:px-20 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-semibold text-center">Portfolio</p>
           <hr className="bg-base-blue w-20 h-0.5 border-none mt-1 mx-auto"></hr>
-          <div className="grid sm:grid-col-2 md:grid-cols-3 gap-16 p-14">
+          <div className="grid sm:grid-col-2 md:grid-cols-2 lg:grid-cols-3 gap-16 p-14">
             <motion.div
               style={{ backgroundImage: `url(${work2})` }}
               className="shadow-md shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
               whileHover={{ scale: 1.1 }}
             >
               {/**Hover effects */}
-              <div className="opacity-0 group-hover:opacity-100 ">
+              <div className="opacity-0 group-hover:opacity-100">
                 <span className="text-lg font-semibold text-black tracking-wider">
-                  Project Title
+                  Advanced Regression House Prices
                 </span>
                 <div className="pt-2 text-center">
                   {/* <a href="/">
@@ -40,7 +40,11 @@ const Portfolio = () => {
                       Demo
                     </button>
                   </a> */}
-                  <a href="/personal-web/#">
+                  <a
+                    href="https://github.com/AvadhootK/Advanced-Regression-House-Prices"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <button className="text-center px-2 py-1 font-medium text-black text-sm">
                       View Project
                     </button>
@@ -56,7 +60,7 @@ const Portfolio = () => {
               {/**Hover effects */}
               <div className="opacity-0 group-hover:opacity-100 ">
                 <span className="text-lg font-semibold text-black tracking-wider">
-                  Project Title
+                  NLP Chatbot
                 </span>
                 <div className="pt-2 text-center">
                   {/* <a href="/">
@@ -64,7 +68,11 @@ const Portfolio = () => {
                       Demo
                     </button>
                   </a> */}
-                  <a href="/personal-web/#">
+                  <a
+                    href="https://github.com/AvadhootK/NLP-Chatbot"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <button className="text-center px-2 py-1 font-medium text-black text-sm">
                       View Project
                     </button>
@@ -80,7 +88,7 @@ const Portfolio = () => {
               {/**Hover effects */}
               <div className="opacity-0 group-hover:opacity-100 ">
                 <span className="text-lg font-semibold text-black tracking-wider">
-                  Project Title
+                  Machine Learning
                 </span>
                 <div className="pt-2 text-center">
                   {/* <a href="/">
@@ -88,7 +96,11 @@ const Portfolio = () => {
                       Demo
                     </button>
                   </a> */}
-                  <a href="/personal-web/#">
+                  <a
+                    href="https://github.com/AvadhootK/Machine-Learning"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <button className="text-center px-2 py-1 font-medium text-black text-sm">
                       View Project
                     </button>
@@ -104,7 +116,7 @@ const Portfolio = () => {
               {/* Hover effects */}
               <div className="opacity-0 group-hover:opacity-100 ">
                 <span className="text-lg font-semibold text-black tracking-wider">
-                  Project Title
+                  Machine Learning
                 </span>
                 <div className="pt-2 text-center">
                   {/* <a href="/">
@@ -112,7 +124,11 @@ const Portfolio = () => {
                       Demo
                     </button>
                   </a> */}
-                  <a href="/personal-web/#">
+                  <a
+                    href="https://github.com/AvadhootK/Machine-Learning"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <button className="text-center px-2 py-1 font-medium text-black text-sm">
                       View Project
                     </button>
@@ -128,7 +144,7 @@ const Portfolio = () => {
               {/* *Hover effects */}
               <div className="opacity-0 group-hover:opacity-100 ">
                 <span className="text-lg font-semibold text-black tracking-wider">
-                  Project Title
+                  Mintcoin
                 </span>
                 <div className="pt-2 text-center">
                   {/* <a href="/">
@@ -136,7 +152,11 @@ const Portfolio = () => {
                       Demo
                     </button>
                   </a> */}
-                  <a href="/personal-web/#">
+                  <a
+                    href="https://github.com/AvadhootK/MintCoin"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <button className="text-center px-2 py-1 font-medium text-black text-sm">
                       View Project
                     </button>
@@ -152,7 +172,7 @@ const Portfolio = () => {
               {/* *Hover effects */}
               <div className="opacity-0 group-hover:opacity-100 ">
                 <span className="text-lg font-semibold text-black tracking-wider">
-                  Project Title
+                  User Management System
                 </span>
                 <div className="pt-2 text-center">
                   {/* <a href="/">
@@ -160,7 +180,11 @@ const Portfolio = () => {
                       Demo
                     </button>
                   </a> */}
-                  <a href="/personal-web/#">
+                  <a
+                    href="https://github.com/AvadhootK/User-management-system"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <button className="text-center px-2 py-1 font-medium text-black text-sm">
                       View Project
                     </button>

@@ -16,7 +16,7 @@ const Footer = () => {
       icon: <FaPhoneAlt size={23} />,
     },
     {
-      desc: "abc.com",
+      desc: "AvadhootK.github.io",
       icon: <GiEarthAmerica size={23} />,
     },
   ];
@@ -37,7 +37,12 @@ const Footer = () => {
               >
                 <AiFillLinkedin size={27} />
               </motion.a>
-              <motion.a className="px-2" href="/#" whileHover={{ scale: 1.3 }}>
+              <motion.a
+                className="px-2"
+                href="https://github.com/AvadhootK"
+                target="_blank"
+                whileHover={{ scale: 1.3 }}
+              >
                 <AiOutlineGithub size={27} />
               </motion.a>
               <motion.a className="px-2" href="/#" whileHover={{ scale: 1.3 }}>

@@ -40,6 +40,13 @@ html{
         #b3d6ff
     ) !important;
 } 
+/* .content-div:hover{
+    background-image:linear-gradient(
+        to right,
+        #55aaff,
+        #55aaff
+    )!important;
+} */
 
 .logo,.foot{
     font-family: 'Sriracha', cursive !important;
@@ -48,3 +55,12 @@ html{
 .boxshadow{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
+/* .post{
+    transition: 1s ease;
+}
+.post:hover{
+    backdrop-filter: blur(10px);
+    filter: blur(4px);
+    transition: 0.5s ease;
+} */

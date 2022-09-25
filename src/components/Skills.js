@@ -19,6 +19,7 @@ import python from "../assets/python.png";
 import ts from "../assets/ts.png";
 import express from "../assets/express.png";
 import django from "../assets/django.png";
+import dl from "../assets/dl.png";
 
 const Skills = () => {
   const frontend = (
@@ -147,8 +148,20 @@ const Skills = () => {
             whileHover={{ scale: 1.1 }}
             className="px-2 m-2 mx-auto"
           >
-            <img src={ai} alt="..." className="mx-auto"></img>
+            <img
+              src={dl}
+              style={{ width: "45px" }}
+              alt="..."
+              className="mx-auto"
+            ></img>
             Deep Learning
+          </motion.button>
+          <motion.button
+            whileHover={{ scale: 1.1 }}
+            className="px-2 m-2 mx-auto"
+          >
+            <img src={ai} alt="..." className="mx-auto"></img>
+            Artificial Intelligence
           </motion.button>
         </div>
       </div>

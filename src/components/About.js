@@ -17,9 +17,11 @@ const About = () => {
               </p>
             </div>
             <p>
-              I am Avadhoot Kulkarni, currently in third year of IT engineering.
-              I am passionate about web development and machine learning with
-              experience working across full-stack web development.
+              I am Avadhoot Kulkarni, currently in Final year of IT Engineering.
+              I am passionate about Web Development, Machine Learning and
+              Artificial Intelligence with experience working across full-stack
+              web development. I am passionate about designing and building
+              products that can help organizations solve various problems.
             </p>
             <div>
               <button className="text-white bg-base-blue group mt-14 px-3 py-3 my-2 flex items-center rounded-lg gap-2">

@@ -114,7 +114,9 @@ const Navbar = () => {
           <li className="w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#171515]">
             <a
               className="flex justify-between items-center w-full text-white"
-              href="/personal-web/#"
+              href="https://github.com/AvadhootK"
+              target="_blank"
+              rel="noreferrer"
             >
               Github <AiOutlineGithub size={25} />
             </a>
