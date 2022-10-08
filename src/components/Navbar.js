@@ -109,7 +109,7 @@ const Navbar = () => {
           <li className="w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#00acee]">
             <a
               className="flex justify-between items-center w-full text-white"
-              href="/"
+              href="/portfolio/"
             >
               Twitter <TiSocialTwitter size={25} />
             </a>
@@ -117,7 +117,7 @@ const Navbar = () => {
           <li className="w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-teal-900">
             <a
               className="flex justify-between items-center w-full text-white"
-              href="/"
+              href="/portfolio/"
             >
               Website <TiSocialDribbble size={25} />
             </a>
