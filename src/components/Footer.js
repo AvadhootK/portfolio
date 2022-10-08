@@ -45,10 +45,10 @@ const Footer = () => {
               >
                 <AiOutlineGithub size={27} />
               </motion.a>
-              <motion.a className="px-2" href="/#" whileHover={{ scale: 1.3 }}>
+              <motion.a className="px-2" href="/" whileHover={{ scale: 1.3 }}>
                 <TiSocialTwitter size={27} />
               </motion.a>
-              <motion.a className="px-2" href="/#" whileHover={{ scale: 1.3 }}>
+              <motion.a className="px-2" href="/" whileHover={{ scale: 1.3 }}>
                 <TiSocialDribbble size={27} />
               </motion.a>
             </div>
