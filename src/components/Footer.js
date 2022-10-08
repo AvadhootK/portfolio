@@ -57,32 +57,32 @@ const Footer = () => {
             <h2 className="text-xl pb-4 font-semibold">Links</h2>
             <ul className="list-none">
               <li className="px-0">
-                <a className="hover:underline" href="/#">
+                <a className="hover:underline" href="#home">
                   Home
                 </a>
               </li>
               <li className="px-0">
-                <a className="hover:underline" href="/#about">
+                <a className="hover:underline" href="#about">
                   About
                 </a>
               </li>
               <li className="px-0">
-                <a className="hover:underline" href="/#experience">
+                <a className="hover:underline" href="#experience">
                   Experience
                 </a>
               </li>
               <li className="px-0">
-                <a className="hover:underline" href="/#skills">
+                <a className="hover:underline" href="#skills">
                   Skills
                 </a>
               </li>
               <li className="px-0">
-                <a className="hover:underline" href="/#portfolio">
+                <a className="hover:underline" href="#portfolio">
                   Portfolio
                 </a>
               </li>
               <li className="px-0">
-                <a className="hover:underline" href="/#contact">
+                <a className="hover:underline" href="#contact">
                   Contact
                 </a>
               </li>

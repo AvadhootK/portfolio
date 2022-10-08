@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div className="navbarscrl z-10 fixed w-full h-[60px] flex justify-between items-center md:px-20 px-10 bg-white text-black text-[18px] opacity-90 ">
       <div className="text-base-blue text-2xl font-semibold brand">
-        <a href="/" className="logo">
+        <a href="/portfolio/" className="logo">
           Avadhoot
         </a>
       </div>
@@ -19,32 +19,32 @@ const Navbar = () => {
       {/* menu */}
       <ul className="navbar-nav hidden lg:flex activenav">
         <li>
-          <a className="hover:text-base-blue alinks" href="/#">
+          <a className="hover:text-base-blue alinks" href="#home">
             Home
           </a>
         </li>
         <li>
-          <a className="hover:text-base-blue alinks" href="/#about">
+          <a className="hover:text-base-blue alinks" href="#about">
             About
           </a>
         </li>
         <li>
-          <a className="hover:text-base-blue alinks" href="/#skills">
+          <a className="hover:text-base-blue alinks" href="#skills">
             Skills
           </a>
         </li>
         <li>
-          <a className="hover:text-base-blue alinks" href="/#experience">
+          <a className="hover:text-base-blue alinks" href="#experience">
             Experience
           </a>
         </li>
         <li>
-          <a className="hover:text-base-blue alinks" href="/#portfolio">
+          <a className="hover:text-base-blue alinks" href="#portfolio">
             Portfolio
           </a>
         </li>
         <li>
-          <a className="hover:text-base-blue alinks" href="/#contact">
+          <a className="hover:text-base-blue alinks" href="#contact">
             Contact
           </a>
         </li>
@@ -64,22 +64,22 @@ const Navbar = () => {
         }
       >
         <motion.li className="py-2 text-lg" whileHover={{ translateX: -13 }}>
-          <a href="/#">Home</a>
+          <a href="#home">Home</a>
         </motion.li>
         <motion.li className="py-2 text-lg" whileHover={{ translateX: -13 }}>
-          <a href="/#about">About</a>
+          <a href="#about">About</a>
         </motion.li>
         <motion.li className="py-2 text-lg " whileHover={{ translateX: -13 }}>
-          <a href="/#skills">Skills</a>
+          <a href="#skills">Skills</a>
         </motion.li>
         <motion.li className="py-2 text-lg " whileHover={{ translateX: -13 }}>
-          <a href="/#experience">Experience</a>
+          <a href="#experience">Experience</a>
         </motion.li>
         <motion.li className="py-2 text-lg " whileHover={{ translateX: -13 }}>
-          <a href="/#portfolio">Portfolio</a>
+          <a href="#portfolio">Portfolio</a>
         </motion.li>
         <motion.li className="py-2 text-lg " whileHover={{ translateX: -13 }}>
-          <a href="/#contact">Contact</a>
+          <a href="#contact">Contact</a>
         </motion.li>
       </ul>
 
